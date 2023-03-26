@@ -1,0 +1,192 @@
+.bar{
+  
+
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bar>a{
+  background-color: black;
+  width: 10vh;
+  padding: 1%;
+  border-radius:50% ;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+.t{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 100vh;
+  }
+  .card {
+    height: 379px;
+    width: 300px;
+    border-radius: 10px;
+    transition: all 0.8s;
+    overflow: hidden;
+    background: black;
+    box-shadow: 0 70px 63px -60px #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin:2%;
+  }
+  .border {
+    height: 369px;
+    width: 290px;
+    border-radius: 10px;
+    transition: all 1s;
+    position: relative;
+  }
+  
+  .border:hover {
+      border: 1px solid rgb(0, 0, 0);
+  }
+  .card0 {
+    background: url('img/3.jpg') center center no-repeat;
+    background-size: 300px;
+  }
+      
+  .card0:hover {
+      background: url('img/3.jpg') left center no-repeat;
+      background-size: 600px;
+  }
+  
+  .card1 {
+    background: url('img/4.jpg') center center no-repeat;
+    background-size: 300px;
+  }
+  
+  .card1:hover {
+      background: url('img/4.jpg') left center no-repeat;
+      background-size: 600px;
+  }
+  
+  .card2 {
+    background: url('img/1.jpg') center center no-repeat;
+    background-size: 300px;
+  }
+  
+  .card2:hover {
+      background: url('img/1.jpg') left center no-repeat;
+      background-size: 600px;
+  }
+  .card3 {
+    background: url('img/2.jpg') center center no-repeat;
+    background-size: 300px;
+  }
+  
+  .card3:hover {
+      background: url('img/2.jpg') left center no-repeat;
+      background-size: 600px;
+  }
+  .card4 {
+    background: url('img/6.jpg') center center no-repeat;
+    background-size: 300px;
+  }
+  
+  .card4:hover {
+      background: url('img/6.jpg') left center no-repeat;
+      background-size: 600px;
+  }
+  .card5 {
+    background: url('img/7.jpg') center center no-repeat;
+    background-size: 300px;
+  }
+  
+  .card5:hover {
+      background: url('img/7.jpg') left center no-repeat;
+      background-size: 600px;
+  }
+
+  .card6 {
+    background: url('img/9.jpg') center center no-repeat;
+    background-size: 300px;
+  }
+  
+  .card6:hover {
+      background: url('img/9.jpg') left center no-repeat;
+      background-size: 600px;
+  }
+  
+  .card7 {
+    background: url('img/10.jpg') center center no-repeat;
+    background-size: 300px;
+  }
+  
+  .card7:hover {
+      background: url('img/10.jpg') left center no-repeat;
+      background-size: 600px;
+  }
+  .card8 {
+    background: url('img/11.jpg') center center no-repeat;
+    background-size: 300px;
+  }
+  
+  .card8:hover {
+      background: url('img/11.jpg') left center no-repeat;
+      background-size: 600px;
+  }
+  .card9 {
+    background: url('img/12.jpg') center center no-repeat;
+    background-size: 300px;
+  }
+  
+  .card9:hover {
+      background: url('img/12.jpg') left center no-repeat;
+      background-size: 600px;
+  }
+  .card10 {
+    background: url('img/8.jpg') center center no-repeat;
+    background-size: 300px;
+  }
+  
+  .card10:hover {
+      background: url('img/8.jpg') left center no-repeat;
+      background-size: 600px;
+  }
+
+  .card11 {
+    background: url('img/13.jpg') center center no-repeat;
+    background-size: 300px;
+  }
+  
+  .card11:hover {
+      background: url('img/13.jpg') left center no-repeat;
+      background-size: 600px;
+  }
+
+
+
+  
+  .fab {
+    opacity: 0;
+    transition: all 1s;
+  }
+  
+  .icons {
+    position: absolute;
+    height: 130px;
+    top: 226px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  a {
+    color: white;
+  }
+  .card:hover h2 {
+    opacity: 1;
+}
+
+.card:hover .fab {
+    opacity: 1;
+}
