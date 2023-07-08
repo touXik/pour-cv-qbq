@@ -161,6 +161,16 @@
       background-size: 600px;
   }
 
+  .card12 {
+    background: url('img/14.jpg') center center no-repeat;
+    background-size: 300px;
+  }
+  
+  .card12:hover {
+      background: url('img/14.jpg') left center no-repeat;
+      background-size: 600px;
+  }
+
 
 
   
