@@ -43,6 +43,30 @@
     transition: all 1s;
     position: relative;
   }
+  .cardf {
+    height: 500px;
+    width: 700px;
+    border-radius: 10px;
+    transition: all 0.8s;
+    overflow: hidden;
+    background: black;
+    box-shadow: 0 70px 63px -60px #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin:2%;
+  }
+  .borderf {
+    height: 490px;
+    width: 890px;
+    border-radius: 10px;
+    transition: all 1s;
+    position: relative;
+  }
+  .borderf:hover {
+    border: 1px solid rgb(0, 0, 0);
+}
   
   .border:hover {
       border: 1px solid rgb(0, 0, 0);
@@ -153,12 +177,12 @@
 
   .card11 {
     background: url('img/13.jpg') center center no-repeat;
-    background-size: 300px;
+    background-size: 700px;
   }
   
   .card11:hover {
       background: url('img/13.jpg') left center no-repeat;
-      background-size: 600px;
+      background-size: 1400px;
   }
 
   .card12 {
